@@ -1,25 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <title>Add to Cart</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <img src="assets/cat.png">
-            <input type="text" id="input-field" placeholder="Bread">
-            <button id="add-button">Add to cart</button>
-            <ul id="shopping-list">
-            </ul>
-        </div>
-        <script src="index.js" type="module"></script>
-    </body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add to Cart</title>
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Styles  -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Scripts  -->
+    <script src="index.js" type="module" defer></script>
+  </head>
+  <body>
+    <!-- Main content  -->
+    <main class="container">
+      <h1 class="main-header">Add to Cart</h1>
+      <img
+        class="logo"
+        src="assets/cat.png"
+        alt="A smiling cat in a shopping cart holding food"
+      />
+
+      <!-- User input  -->
+      <input
+        type="text"
+        class="input-field"
+        id="input-field"
+        placeholder="Bread"
+      />
+      <button class="add-button" id="add-button">ADD TO CART</button>
+
+      <!-- Shopping list  -->
+      <ul class="shopping-list" id="shopping-list"></ul>
+    </main>
+  </body>
 </html>
